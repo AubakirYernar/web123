@@ -1,0 +1,98 @@
+
+*{
+    color:white;
+}
+.reg_body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    width:100%;
+    
+}
+
+.reg_form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+}
+
+.reg_form label {
+    margin-bottom: 5px;
+}
+
+.reg_form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     color: black;
+}
+
+.reg_form button {
+    padding: 5px;
+    background-color: #ff6500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+
+}
+
+.reg_form button:hover {
+    background-color: #1c1c1c;
+}
+
+
+.login_body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    width:100%;
+    
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+}
+
+.login_form label {
+    margin-bottom: 5px;
+}
+
+.login_form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     color: black;
+}
+
+.login_form button {
+    padding: 5px;
+    background-color: #ff6500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+
+}
+
+.login_form button:hover {
+    background-color: #1c1c1c;
+}

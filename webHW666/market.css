@@ -1,0 +1,45 @@
+.market{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.market_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.market_img{
+    width: 100px;
+    height: 100px;
+}
+
+#product-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 100%;
+    display: flex;    
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.star1 {
+    font-size: 20px;
+    color: #ccc; /* серый цвет для неактивных звезд */
+}
+
+.star1.active {
+    color: yellow; /* золотой цвет для активных звезд */
+}
